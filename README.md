@@ -4,8 +4,34 @@
 1. pertama gambar terlihat kosong.
 <img width="1918" height="1024" alt="Cuplikan layar 2025-09-29 143141" src="https://github.com/user-attachments/assets/3de90156-3f90-4a9e-9472-6baac89e35bf" />
 
+ 2.langkah Kemudian tambahkan deklarasi inline CSS pada tag <p> seperti berikut.
+`<p style="text-align: center; color: #ccd8e4;">`
+ Simpan kembali dan refresh kembali browser untuk melihat perubahannya.
+ 
 <img width="1903" height="692" alt="Cuplikan layar 2025-09-29 133754" src="https://github.com/user-attachments/assets/e91a4cf0-7d9d-428e-86a2-1ca852eca4ec" />
 
+3. Buatlah file baru dengan nama style_eksternal.css kemudian buatlah deklarasi CSS seperti berikut.
+`nav {
+background: #20A759;
+color:#fff;
+padding: 10px;
+}
+nav a {
+color: #fff;
+text-decoration: none;
+padding:10px 20px;
+}
+nav .active,
+nav a:hover {
+background: #0B6B3A;
+}`
+Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada bagian `<head>`
+`<head>`
+<!-- menyisipkan css eksternal -->
+`<link rel="stylesheet" href="style_eksternal.css" type="text/css">`
+`</head>`
+
+Selanjutnya refresh kembali browser untuk melihat perubahannya. 
 <img width="1911" height="1025" alt="Cuplikan layar 2025-09-29 141043" src="https://github.com/user-attachments/assets/b3078a66-2968-461d-8a82-5a5e1d42ea82" />
 
 <img width="1913" height="565" alt="Cuplikan layar 2025-09-29 143753" src="https://github.com/user-attachments/assets/b47d60e3-5667-40bf-ac33-a6e8924faece" />
