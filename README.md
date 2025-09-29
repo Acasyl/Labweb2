@@ -34,6 +34,37 @@ Kemudian tambahkan tag `<link>` untuk merujuk file css yang sudah dibuat pada ba
 Selanjutnya refresh kembali browser untuk melihat perubahannya. 
 <img width="1911" height="1025" alt="Cuplikan layar 2025-09-29 141043" src="https://github.com/user-attachments/assets/b3078a66-2968-461d-8a82-5a5e1d42ea82" />
 
+
+Selanjutnya menambahkan CSS Selector menggunakan ID dan Class Selector. Pada file
+style_eksternal.css, tambahkan kode berikut.
+
+`/* ID Selector */
+#intro {
+background: #418fb1;
+border: 1px solid #099249;
+min-height: 100px;
+padding: 10px;
+}
+#intro h1 {
+text-align: left;
+border: 0;
+color: #fff;
+}
+/* Class Selector */
+.button {
+padding: 15px 20px;
+background: #bebcbd;
+color: #fff;
+display: inline-block;
+margin: 10px;
+text-decoration: none;
+}
+.btn-primary {
+background: #E42A42;
+}`
+
+Kemudian simpan kembali dan refresh browser untuk melihat perubahannya.
+
 <img width="1913" height="565" alt="Cuplikan layar 2025-09-29 143753" src="https://github.com/user-attachments/assets/b47d60e3-5667-40bf-ac33-a6e8924faece" />
 
 
